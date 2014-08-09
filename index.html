@@ -5,16 +5,39 @@
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 	</head>
 	<body>
-		<div .center>
-			<a href="Google.com"><img src="https://www.google.com/images/srpr/logo11w.png" /></a>
+		<div id="navbar">
+			<ul id="navmenu">
+				<li><a class="navitem" href="https://plus.google.com/u/0/?tab=wX">+Shelby</a></li>
+				<li><a class="navitem" href="https://mail.google.com/mail/?tab=wm&authuser=0">Gmail</a></li>
+				<li><a class="navitem" href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ei=0PzjU6ycLcGkyASP2oKICA&ved=0CAQQqi4oAg">Images</a></li>
+				<li><a class="navitem" href="http://www.google.com/intl/en/options/">Apps</a></li>
+				<li><a class="navitem" href="https://plus.google.com/u/0/notifications/all?hl=en">Notifications</a></li>
+				<li><a class="navitem" href="https://plus.google.com/u/0/stream/all?hl=en">Share</a></li>
+				<li><a class="navitem" href="https://plus.google.com/u/0/me?tab=wX&authuser=0">Profile</a></li>
+			</ul>
+		</div><!--navbar-->
+		<div class="center">
+			<img id="googlelogo" src="https://www.google.com/images/srpr/logo11w.png" />
 			<form action="google.com" method="POST" name="search_form">
-				<input type="text" name="search">
+				<input id="searchbar" type="text" name="search">
 				<br />
-				<input type="submit" value="Google Search">
-				<br />
-				<input type="submit" value="I'm Feeling Lucky">
+				<input id="search_button" class="button" type="submit" value="Google Search">
+				<input id="lucky button" class="button" type="submit" value="I'm Feeling Lucky">
 				<br />
 			</form>
-		</div><!--center-->
+		</div><!--center-->	
+		<div id="footer_box"
+			<div id="footer">
+				<ul id="footmenu1">
+					<li><a class="footitemleft" href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
+					<li><a class="footitemleft" href="https://www.google.com/services/?fg=1">Business</a></li>
+					<li><a class="footitemleft" href="https://www.google.com/intl/en/about.html?fg=1">About</a></li>
+				</ul>
+				<ul id="footmenu2">
+					<li><a class="footitemright" href="https://www.google.com/intl/en/policies/?fg=1">Privacy & Terms</a></li>
+					<li><a class="footitemright" href="https://www.google.com/preferences?hl=en">Settings</a></li>
+				</ul>
+			</div><!--footer-->
+		</div> <!--footer box-->
 	</body>
 </html>
