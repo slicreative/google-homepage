@@ -10,16 +10,20 @@
 				<li><a class="navitem" href="https://plus.google.com/u/0/?tab=wX">+Shelby</a></li>
 				<li><a class="navitem" href="https://mail.google.com/mail/?tab=wm&authuser=0">Gmail</a></li>
 				<li><a class="navitem" href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ei=0PzjU6ycLcGkyASP2oKICA&ved=0CAQQqi4oAg">Images</a></li>
-				<li><a class="navitem" href="http://www.google.com/intl/en/options/">Apps</a></li>
-				<li><a class="navitem" href="https://plus.google.com/u/0/notifications/all?hl=en">Notifications</a></li>
-				<li><a class="navitem" href="https://plus.google.com/u/0/stream/all?hl=en">Share</a></li>
-				<li><a class="navitem" href="https://plus.google.com/u/0/me?tab=wX&authuser=0">Profile</a></li>
+				<li><a id="apps" class="navitem" href="http://www.google.com/intl/en/options/"><img src="images/apps.jpg" /></a></li>
+				<li><a id="notifications" class="navitem" href="https://plus.google.com/u/0/notifications/all?hl=en"><img src="images/notifications.jpg" /></a></li>
+				<li><a id="share" class="navitem" href="https://plus.google.com/u/0/stream/all?hl=en">Share</a></li>
+				<li><a id="profile" class="navitem" href="https://plus.google.com/u/0/me?tab=wX&authuser=0"><img src="images/profile.jpg" /></a></li>
 			</ul>
 		</div><!--navbar-->
+		<a id="sharebox" href="https://plus.google.com/u/0/stream/all?hl=en"><img src="images/share-01.png" /></a>
 		<div class="center">
 			<img id="googlelogo" src="https://www.google.com/images/srpr/logo11w.png" />
 			<form action="google.com" method="POST" name="search_form">
-				<input id="searchbar" type="text" name="search">
+				<div id="searchframe">
+					<input id="searchbar" type="text" name="search">
+					<a href="javascript:void(0)"><img id="audio" src="images/audio.jpg" /></a>
+				</div>
 				<br />
 				<input id="search_button" class="button" type="submit" value="Google Search">
 				<input id="lucky button" class="button" type="submit" value="I'm Feeling Lucky">
